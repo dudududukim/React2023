@@ -19,6 +19,7 @@ function App() {
       <h2>넌 뒤졌다 {jsVariable === 1 && <h1 style={style}>진짜로</h1>}</h2>
       <h3>{name || "undefined입니다"}</h3>
       <input></input>
+      <br></br>
       <input /> {/* 이게 주석임 */}
     </Fragment>
   );
